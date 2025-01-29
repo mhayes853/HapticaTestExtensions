@@ -109,7 +109,7 @@ extension.registerManifest({
     {
       type: "slider",
       displayName: "Slider With Stepper",
-      key: "slider",
+      key: "slider-with-stepper",
       includeStepper: true,
       defaultValue: 0,
       step: 1,
@@ -159,9 +159,9 @@ extension.registerManifest({
       displayName: "Basic Picker",
       key: "basic-picker",
       options: [
-        { displayName: "The Bloody Red", name: "red" },
-        { displayName: "The Emerald Green", name: "green" },
-        { displayName: "The Ocean Blue", name: "blue" },
+        { displayName: "The Bloody Red", value: "red" },
+        { displayName: "The Emerald Green", value: "green" },
+        { displayName: "The Ocean Blue", value: "blue" },
       ],
       defaultValue: "green",
     },
