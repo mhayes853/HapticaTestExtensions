@@ -35,6 +35,15 @@ extension.registerManifest({
     },
     {
       type: "date-picker",
+      displayTitle: "Date Picker With Title",
+      displayName: "Titled Date",
+      key: "titled-date",
+      defaultValue: now,
+      min: now,
+      max: addSeconds(now, 3600),
+    },
+    {
+      type: "date-picker",
       displayName: "Hour And Minute Date Picker",
       key: "hour-and-minute-date",
       defaultValue: now,
@@ -112,6 +121,12 @@ extension.registerManifest({
       type: "toggle",
       displayName: "Basic Toggle",
       key: "toggle",
+      defaultValue: false,
+    },
+    {
+      type: "toggle",
+      displayTitle: "Toggle With Header",
+      key: "toggle-with-header",
       defaultValue: false,
     },
     {
